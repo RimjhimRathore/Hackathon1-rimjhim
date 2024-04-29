@@ -317,6 +317,37 @@ footer{
     gap: 4vw;
     align-items: center;
 }
+footer .top{
+    display: flex;
+}
+footer .top img{
+    height: 100px;
+}
+footer .top .quick-link{
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+}
+.top .quick-link a{
+    text-decoration: none;
+    color: white;
+    
+}
+.top li{
+    margin-top: 10px;
+    color: white;
+    
+}
+.top h4{
+    margin-bottom: 10px;
+    color: #235c7f;
+    
+}
+footer .top .contact{
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+}
+.contact p
+
 .footer-left-section{
     width: 65%;
     height: 90%;
@@ -354,4 +385,90 @@ footer{
     object-fit: cover;
     scale: 1;
     transition: scale ease-in .5s;
+}
+
+/* booknow page */
+.bg{
+    background-image:url(bg\ 1.jpeg);
+    height: 100vh;
+    background-image: fixed;
+   
+    
+
+
+}
+.bg-text h1{
+    color:  #12376e;
+    text-align: center;
+    ;
+    
+    
+}
+.form-box{
+    display: flex;
+  width: 28%;
+  position: relative;
+  left: 35%;
+  top: 10%;
+    
+    background-color: #e3b13d;
+}
+form{
+    margin: 10px;
+}
+label{
+    margin-left: 10px;
+    color: white;
+}
+input{
+    width: 140%;
+    height: 25px;
+  margin-bottom:10px ;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+button{
+    background: linear-gradient(to top, #00154c, #12376e, #235c7f);
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 140%;
+    height: 30px;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+/* view-ticket page */
+.ticket{
+    width: 80%;
+    height: 50%;
+    background-image:url(ticket\ sample.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.ticket-info{
+    position: relative;
+    left: 15rem;
+    top: 4rem;
+    text-align: center;
+}
+.ticket-info h1{
+    margin: 0.5rem;
+    color:#e3b13d ;
+}
+.ticket-form label{
+    margin-left: 0px;
+}
+.ticket-form input{
+    width: 15rem;
+    margin-left: 0px;
+}
+.ticket-form{
+    position: relative;
+    right: -32rem;
+       border-left: 2px dashed black;
+    padding-left: 0px;
 }
